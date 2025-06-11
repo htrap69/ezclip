@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>EZClip Settings</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="container">
+    <h1>Manage Default Links</h1>
+    <form id="defaultsForm">
+      <input type="text" id="linkedin" placeholder="LinkedIn URL" />
+      <input type="text" id="email" placeholder="Email" />
+      <input type="text" id="phone" placeholder="Phone" />
+      <input type="text" id="github" placeholder="GitHub URL" />
+      <input type="text" id="portfolio" placeholder="Portfolio URL" />
+      <button type="submit">Save Default Links</button>
+    </form>
+
+    <h2>Custom Snippets</h2>
+    <form id="clipForm">
+      <input type="text" id="label" placeholder="Label" required />
+      <input type="text" id="value" placeholder="Text to copy" required />
+      <button type="submit">Add Clip</button>
+    </form>
+    <ul id="clipList"></ul>
+  </div>
+  <script src="settings.js"></script>
+</body>
+</html>
